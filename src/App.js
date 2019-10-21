@@ -1,9 +1,10 @@
-import React from "react";
-// import "./App.css";
-import Practice from "./Practice";
+import React, { Component } from "react";
+import IterationSample from "./IterationSample";
 
-const App = () => {
-  return <Practice />;
-};
+class App extends Component {
+  render() {
+    return <IterationSample />;
+  }
+}
 
 export default App;
